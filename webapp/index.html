@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WineVault</title>
+</head>
+<script src="lib/angular.min.js"></script>
+<script src="js/winelist.js"></script>
+<body>
+<div ng-app="winelist">
+<div ng-controller="wineListCtrl">
+	{{status}}
+	<div ng-repeat="x in response">
+		<p>
+			{{x.name + " | " + x.country + " | " + x.rating + " | $" + x.price_low + " - $" + x.price_high}}
+		</p>
+	</div>
+</div>
+</div>
+</body>
+</html>
