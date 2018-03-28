@@ -13,15 +13,15 @@ import winevault.service.Service;
 
 public class Controller implements IController {
 
-	Wine wine;
+	Model model;
 	Service service;
 	View view;
 	ArrayList<Wine> wines = new ArrayList();
 	ResultSet rs;
 	
 	
-	Controller(Wine wine, Service service, View view){
-		this.wine=wine;
+	Controller(Model model, Service service, View view){
+		this.model=model;
 		this.service=service;
 		this.view=view;
 	}

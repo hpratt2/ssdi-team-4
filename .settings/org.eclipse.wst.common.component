@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="recommendationapp-0.0.1-SNAPSHOT">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+<<<<<<< HEAD
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/lib"/>
         <wb-resource deploy-path="/" source-path="/webapp"/>
         <property name="java-output-path" value="/recommendationapp/build/classes"/>
         <property name="context-root" value="winevault"/>
+=======
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="recommendationapp"/>
+        <property name="java-output-path" value="/ssdi-team-4/target/classes"/>
+>>>>>>> ac2a09b8f0874e83001a8fee4afbfe1b88f42a36
     </wb-module>
 </project-modules>

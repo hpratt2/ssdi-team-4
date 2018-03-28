@@ -1,9 +1,5 @@
 package winevault.model;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement(name = "wine")
 public class Wine implements IWine {
 
 	int id;
@@ -13,7 +9,7 @@ public class Wine implements IWine {
 	double price_high;
 	double price_low;
 	
-	public Wine(int id, String name, String country, double rating, double price_l, double price_h){
+	Wine(int id, String name, String country, double rating, double price_l, double price_h){
 		this.id=id;
 		this.name=name;
 		this.country=country;
@@ -23,14 +19,12 @@ public class Wine implements IWine {
 	}
 	
 	@Override
-	@XmlElement
 	public int getID() {
 		// TODO Auto-generated method stub
 		return id;
 	}
 
 	@Override
-	@XmlElement
 	public String getName() {
 		// TODO Auto-generated method stub
 		return name;
@@ -43,7 +37,6 @@ public class Wine implements IWine {
 	}
 
 	@Override
-	@XmlElement
 	public String getCountry() {
 		// TODO Auto-generated method stub
 		return country;
@@ -56,7 +49,6 @@ public class Wine implements IWine {
 	}
 
 	@Override
-	@XmlElement
 	public double getRating() {
 		// TODO Auto-generated method stub
 		return rating;
@@ -70,7 +62,6 @@ public class Wine implements IWine {
 	}
 
 	@Override
-	@XmlElement
 	public double getPrice_Low() {
 		// TODO Auto-generated method stub
 		return price_low;
@@ -84,7 +75,6 @@ public class Wine implements IWine {
 	}
 
 	@Override
-	@XmlElement
 	public double getPrice_High() {
 		// TODO Auto-generated method stub
 		return this.price_high;
