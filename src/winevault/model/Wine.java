@@ -9,7 +9,7 @@ public class Wine implements IWine {
 	double price_high;
 	double price_low;
 	
-	Wine(int id, String name, String country, double rating, double price_l, double price_h){
+	public Wine(int id, String name, String country, double rating, double price_l, double price_h){
 		this.id=id;
 		this.name=name;
 		this.country=country;
