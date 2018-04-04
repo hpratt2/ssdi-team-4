@@ -1,21 +1,24 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>WineVault</title>
 </head>
-<script src="lib/angular.min.js"></script>
-<script src="js/winelist.js"></script>
 <body>
-<div ng-app="winelist">
-<div ng-controller="wineListCtrl">
-	{{status}}
-	<div ng-repeat="x in response">
-		<p>
-			{{x.name + " | " + x.country + " | " + x.rating + " | $" + x.price_low + " - $" + x.price_high}}
-		</p>
+
+<h3>AngularJS Test</h3>
+<div ng-app="test">
+	<div ng-controller="testCtrl">
+		<div ng-repeat="x in data">
+			{{ x.name + " | " + (x.country || "Unknown") + " | " + x.avgRating + " | " + x.priceLow + " - " + x.priceHigh }}
+		</div>
+		<div class="container" ng-view="">
+	
+		</div>
 	</div>
 </div>
-</div>
+
+<script src="lib/angular/angular.js"></script>
+<script src="js/test.js"></script>
+
 </body>
 </html>
