@@ -1,4 +1,4 @@
-package winevault.model;
+package main.java.winevault.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -35,5 +35,5 @@ public class Wine implements IWine {
 	public void setPriceLow(Double priceLow) { this.priceLow = priceLow; }
 	
 	public Double getPriceHigh() { return priceHigh; }
-	public Double setPriceHigh(Double priceHigh) { return priceHigh; }
+	public void setPriceHigh(Double priceHigh) { this.priceHigh = priceHigh; }
 }

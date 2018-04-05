@@ -1,4 +1,4 @@
-package winevault.util;
+package main.java.winevault.util;
 
 public interface IConnectionData {
 	public String getURL();

@@ -1,7 +1,8 @@
-package winevault.dao;
+package main.java.winevault.dao;
 
 import java.util.List;
-import winevault.model.IWine;
+
+import main.java.winevault.model.IWine;
 
 public interface IWineDAO {
 	public void addWine(IWine wine);

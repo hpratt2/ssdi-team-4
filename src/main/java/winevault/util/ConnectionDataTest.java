@@ -1,4 +1,4 @@
-package winevault.util;
+package main.java.winevault.util;
 
 public class ConnectionDataTest implements IConnectionData {
 	private static final String url = "jdbc:mysql://localhost/winevaultdbtest";

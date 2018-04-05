@@ -1,6 +1,7 @@
-package winevault.api;
+package main.java.winevault.api;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -14,9 +15,9 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import winevault.model.IWine;
-import winevault.model.Thing;
-import winevault.service.WineListService;
+import main.java.winevault.model.IWine;
+import main.java.winevault.model.Thing;
+import main.java.winevault.service.WineListService;
 
 @Path("/")
 public class IndexController {

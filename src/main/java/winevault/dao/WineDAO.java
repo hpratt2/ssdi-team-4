@@ -1,13 +1,14 @@
-package winevault.dao;
+package main.java.winevault.dao;
 
 import java.sql.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import winevault.model.IWine;
-import winevault.model.Wine;
-import winevault.util.ConnectionUtil;
-import winevault.util.IConnectionData;
+import main.java.winevault.model.IWine;
+import main.java.winevault.model.Wine;
+import main.java.winevault.util.ConnectionUtil;
+import main.java.winevault.util.IConnectionData;
 
 public class WineDAO implements IWineDAO {
 	private IConnectionData connData;
@@ -64,4 +65,10 @@ public class WineDAO implements IWineDAO {
 		}
 		return wines;
 	}
+
+//	@Override
+//	public void addWine(IWine wine) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 }

@@ -1,4 +1,4 @@
-package winevault.model;
+package main.java.winevault.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -20,5 +20,5 @@ public interface IWine {
 	public void setPriceLow(Double priceLow);
 	
 	public Double getPriceHigh();
-	public Double setPriceHigh(Double priceHigh);
+	public void setPriceHigh(Double priceHigh);
 }

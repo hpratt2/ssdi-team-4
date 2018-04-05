@@ -1,4 +1,4 @@
-package winevault.util;
+package main.java.winevault.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
