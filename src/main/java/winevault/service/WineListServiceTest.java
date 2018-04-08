@@ -1,6 +1,7 @@
 package main.java.winevault.service;
 
 import static org.junit.Assert.assertEquals;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -10,10 +11,10 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import winevault.dao.WineDAO;
-import winevault.model.IWine;
-import winevault.model.Wine;
-import winevault.service.WineListingService;
+import main.java.winevault.dao.WineDAO;
+import main.java.winevault.model.IWine;
+import main.java.winevault.model.Wine;
+import main.java.winevault.service.WineListService;
 
 class WineListServiceTest extends WineListService {
 
